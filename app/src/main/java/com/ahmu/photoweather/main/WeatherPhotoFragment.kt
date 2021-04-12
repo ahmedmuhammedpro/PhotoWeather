@@ -81,11 +81,13 @@ class WeatherPhotoFragment : Fragment() {
                 }
 
                 binding.placeName.text = weatherModel.name
+
                 // convert kelvin to celsius
                 val temp = (weatherModel.main.temp - 273.15).roundToInt()
                 binding.temperature.text = "$temp\u2103"
 
                 binding.condition.text = "${weatherModel.wind.speed}km/h"
+
                 showOptionsMenu = true
                 activity!!.invalidateOptionsMenu()
             }

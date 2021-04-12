@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PhotoWeather</string>
+    <string name="take_photo">Take a photo</string>
+    <string name="permissions_error_label" translatable="false">Permissions Denied!!</string>
+    <string name="general_error_label">oops! something went wrong</string>
+    <string name="enable_permissions_label">Must enable permissions</string>
+    <string name="enable_gps_label">Enable GPS</string>
+    <string name="enable_permissions_button_label">enable</string>
+</resources>
